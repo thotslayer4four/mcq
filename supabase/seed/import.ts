@@ -1,9 +1,11 @@
 // Imports questions from a JSON file into the questions/subdivisions tables.
 // Usage: npm run db:import -- ./questions_seed.json
-import "dotenv/config";
+import { config } from "dotenv";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { createClient } from "@supabase/supabase-js";
+
+config({ path: resolve(process.cwd(), ".env.local") });
 
 interface SeedQuestion {
   id: number;
