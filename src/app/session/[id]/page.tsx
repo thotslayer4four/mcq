@@ -5,7 +5,7 @@ import { getCurrentUser, getQuestionsByIds, getSession } from "@/lib/queries";
 export default async function SessionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const user = await getCurrentUser();
-  if (!user) redirect("/login");
+  if (!user) redirect("/");
 
   const session = await getSession(id);
   if (!session) notFound();

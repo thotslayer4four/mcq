@@ -1,10 +1,8 @@
-import Link from "next/link";
 import QuizSetupForm from "@/components/QuizSetupForm";
-import { getCurrentUser, getQuestionCounts, getSubdivisions } from "@/lib/queries";
+import { getQuestionCounts, getSubdivisions } from "@/lib/queries";
 
 export default async function CustomQuizPage() {
-  const [user, subdivisions, questionCounts] = await Promise.all([
-    getCurrentUser(),
+  const [subdivisions, questionCounts] = await Promise.all([
     getSubdivisions(),
     getQuestionCounts(),
   ]);
@@ -20,22 +18,7 @@ export default async function CustomQuizPage() {
         </p>
       </div>
 
-      {user ? (
-        <QuizSetupForm subdivisions={subdivisions} questionCounts={questionCounts} />
-      ) : (
-        <div className="rounded-lg border border-border bg-surface p-6 text-center">
-          <p className="text-foreground">
-            <Link href="/login" className="font-semibold text-primary hover:underline">
-              Log in
-            </Link>{" "}
-            or{" "}
-            <Link href="/signup" className="font-semibold text-primary hover:underline">
-              sign up
-            </Link>{" "}
-            to build a custom quiz.
-          </p>
-        </div>
-      )}
+      <QuizSetupForm subdivisions={subdivisions} questionCounts={questionCounts} />
     </div>
   );
 }

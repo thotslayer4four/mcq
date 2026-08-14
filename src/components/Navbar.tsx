@@ -4,6 +4,7 @@ import { logout } from "@/app/actions/auth";
 
 export default async function Navbar() {
   const user = await getCurrentUser();
+  const account = user && !user.is_anonymous ? user : null;
 
   return (
     <header className="border-b border-border bg-background">
@@ -19,19 +20,14 @@ export default async function Navbar() {
           <Link href="/custom" className="text-muted transition-colors hover:text-foreground">
             Custom Quiz
           </Link>
-          {user && (
-            <Link
-              href="/dashboard"
-              className="text-muted transition-colors hover:text-foreground"
-            >
-              Dashboard
-            </Link>
-          )}
+          <Link href="/dashboard" className="text-muted transition-colors hover:text-foreground">
+            Dashboard
+          </Link>
 
-          {user ? (
+          {account ? (
             <form action={logout} className="flex items-center gap-3">
               <span className="hidden max-w-[160px] truncate text-muted sm:inline">
-                {user.email}
+                {account.email}
               </span>
               <button
                 type="submit"

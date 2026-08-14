@@ -93,13 +93,14 @@ export default async function Home() {
         )}
       </section>
 
-      {!user && (
+      {(!user || user.is_anonymous) && (
         <section className="rounded-lg border border-border bg-surface p-6 text-center">
           <p className="text-foreground">
+            No sign-up needed — jump into any subdivision above.{" "}
             <Link href="/signup" className="font-semibold text-primary hover:underline">
               Create a free account
             </Link>{" "}
-            to save your progress across sessions and track accuracy by subdivision.
+            if you want your progress to survive clearing cookies or switching devices.
           </p>
         </section>
       )}

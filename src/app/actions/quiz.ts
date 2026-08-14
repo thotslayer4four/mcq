@@ -18,13 +18,24 @@ function shuffle<T>(items: T[]): T[] {
   return copy;
 }
 
+// No signup required to take a quiz: silently provisions an anonymous
+// Supabase user on first use so progress still has somewhere to live.
+// Users can later create a real account from /signup if they want their
+// progress to survive clearing cookies.
 async function requireUserId(): Promise<string> {
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
-  if (!user) redirect("/login");
-  return user.id;
+  if (user) return user.id;
+
+  const { data, error } = await supabase.auth.signInAnonymously();
+  if (error || !data.user) {
+    throw new Error(
+      "Couldn't start a session. If this persists, make sure Anonymous Sign-ins are enabled in your Supabase project's Auth settings."
+    );
+  }
+  return data.user.id;
 }
 
 export async function startSession(params: {

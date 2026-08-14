@@ -1,11 +1,27 @@
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import { startReviewSession } from "@/app/actions/quiz";
 import { getCurrentUser, getDashboardStats, getMissedQuestionIds } from "@/lib/queries";
 
 export default async function DashboardPage() {
   const user = await getCurrentUser();
-  if (!user) redirect("/login");
+
+  if (!user) {
+    return (
+      <div className="mx-auto flex max-w-4xl flex-col gap-8 px-4 py-12 sm:px-6">
+        <div className="flex flex-col gap-2">
+          <h1 className="text-3xl font-bold tracking-tight text-foreground">Dashboard</h1>
+          <p className="text-sm text-muted">Your accuracy across all attempted questions.</p>
+        </div>
+        <p className="rounded-lg border border-dashed border-border p-8 text-center text-sm text-muted">
+          You haven&apos;t answered any questions yet.{" "}
+          <Link href="/" className="font-medium text-primary hover:underline">
+            Start a quiz
+          </Link>{" "}
+          to see your stats here.
+        </p>
+      </div>
+    );
+  }
 
   const [{ bySubdivision, overall }, missedQuestionIds] = await Promise.all([
     getDashboardStats(user.id),
