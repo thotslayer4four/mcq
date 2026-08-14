@@ -68,8 +68,10 @@ export default function QuizSetupForm({
             mode === "timed" ? Math.round(effectiveCount * minutesPerQuestion * 60) : undefined,
         });
       } catch (err) {
+        // Thrown server errors are redacted to a generic message in
+        // production, so show fixed copy rather than err.message.
         if (err instanceof Error && err.message !== "NEXT_REDIRECT") {
-          setError(err.message);
+          setError("Something went wrong starting the quiz. Please try again.");
         }
       }
     });
