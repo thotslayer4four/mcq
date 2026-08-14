@@ -1,0 +1,201 @@
+[
+  {
+    "id": 437,
+    "orig_id": 581,
+    "source_page": 168,
+    "subdivision": "Gynecologic Oncology",
+    "topic": "Cervical Cancer Screening",
+    "question": "HPV genotyping (subtyping for high-risk HPV types, particularly HPV 16/18) is most useful in the initial management of which of the following cervical cytological findings?",
+    "options": {
+      "A": "Low-grade squamous intraepithelial lesion (LSIL)",
+      "B": "High-grade squamous intraepithelial lesion (HSIL)",
+      "C": "Atypical squamous cells\u2014cannot exclude HSIL (ASC-H)",
+      "D": "Atypical squamous cells of undetermined significance (ASC-US)"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Incorrect. Women with LSIL generally undergo risk-based management, often with colposcopy depending on age and prior HPV results. HPV genotyping is not routinely required for initial management.",
+      "B": "Incorrect. HSIL carries a high immediate risk of CIN 3+ and generally requires colposcopy or expedited treatment, irrespective of HPV genotyping.",
+      "C": "Incorrect. ASC-H has a significant risk of high-grade disease, and immediate colposcopy is recommended regardless of HPV subtype.",
+      "D": "Correct. The classic use of reflex high-risk HPV testing (and HPV genotyping where available) is in the triage of ASC-US. HPV-positive patients are referred for colposcopy, whereas HPV-negative patients can return to routine surveillance according to guideline recommendations."
+    },
+    "references": [
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Cervical Cancer Screening.",
+      "ASCCP Risk-Based Management Guidelines (2019): Reflex high-risk HPV testing is recommended for ASC-US to guide initial management."
+    ]
+  },
+  {
+    "id": 438,
+    "orig_id": 582,
+    "source_page": 168,
+    "subdivision": "Obstetrics",
+    "topic": "Benign Disorders of the Cervix",
+    "question": "In a primigravida, physiological cervical eversion (ectropion) during pregnancy most commonly occurs:",
+    "options": {
+      "A": "After delivery",
+      "B": "At the end of the 1st trimester",
+      "C": "At the end of the 2nd trimester",
+      "D": "At the end of the 3rd trimester"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "Incorrect. After delivery, cervical remodeling and involution occur rather than the development of physiological cervical eversion.",
+      "B": "Correct. Under the influence of rising estrogen levels in early pregnancy, the endocervical columnar epithelium everts onto the ectocervix, producing a physiological cervical ectropion. This change is usually evident by the end of the first trimester.",
+      "C": "Incorrect. Although ectropion may become more prominent as pregnancy progresses, it generally develops earlier.",
+      "D": "Incorrect. Cervical eversion is already established by late pregnancy and is not first seen at this stage."
+    },
+    "references": [
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Benign Disorders of the Cervix."
+    ]
+  },
+  {
+    "id": 439,
+    "orig_id": 583,
+    "source_page": 169,
+    "subdivision": "Benign Gynecology",
+    "topic": "Leiomyomas",
+    "question": "A 48-year-old woman presents with abnormal uterine bleeding for several months. On pelvic examination, the uterus is enlarged to approximately 16-week size, and a 10-cm pedunculated uterine mass is identified. She has completed childbearing. What is the most appropriate management?",
+    "options": {
+      "A": "Observation with repeat ultrasonography",
+      "B": "Gonadotropin-releasing hormone (GnRH) agonist therapy",
+      "C": "Myomectomy",
+      "D": "Total hysterectomy"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Incorrect. The patient is symptomatic with a large uterine mass and abnormal uterine bleeding. Observation is inappropriate.",
+      "B": "Incorrect. GnRH agonists may temporarily reduce fibroid size but are used mainly as preoperative therapy or in women approaching menopause, not as definitive treatment for a large symptomatic fibroid.",
+      "C": "Incorrect. Myomectomy is generally reserved for women who wish to preserve fertility or retain the uterus. This patient is 48 years old and has completed childbearing.",
+      "D": "Correct. For women with large symptomatic fibroids who have completed childbearing, hysterectomy provides definitive treatment, eliminating symptoms and preventing recurrence."
+    },
+    "references": [
+      "Williams Gynecology, 5th Edition. Chapter: Leiomyomas.",
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Hysterectomy is the definitive treatment for symptomatic leiomyomas in women who do not desire future fertility."
+    ]
+  },
+  {
+    "id": 440,
+    "orig_id": 584,
+    "source_page": 169,
+    "subdivision": "Gynecologic Oncology",
+    "topic": "Epithelial Ovarian, Fallopian Tube, and Primary Peritoneal Cancer",
+    "question": "A 70-year-old woman presents with a solid left adnexal mass. Her serum CA-125 is 200 U/mL. She undergoes staging laparotomy with total abdominal hysterectomy, bilateral salpingo-oophorectomy (TAH + BSO), omentectomy, and omental biopsy. Histopathological examination reveals metastatic tumor deposits in the omentum. According to the FIGO staging system for epithelial ovarian cancer, what is the stage of this disease?",
+    "options": {
+      "A": "Stage I",
+      "B": "Stage IIIA",
+      "C": "Stage IIIB",
+      "D": "Stage IV"
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Incorrect. Stage I disease is confined to one or both ovaries or fallopian tubes without extra-pelvic spread.",
+      "B": "Incorrect. Stage IIIA refers to microscopic peritoneal metastasis beyond the pelvis (with or without retroperitoneal lymph node involvement).",
+      "C": "Correct. Stage IIIB is characterized by macroscopic peritoneal metastasis beyond the pelvis measuring \u22642 cm, including involvement of the omentum. Omental metastasis on biopsy indicates Stage III disease.",
+      "D": "Incorrect. Stage IV requires distant metastasis, such as pleural effusion with positive cytology or parenchymal liver, lung, or other distant organ metastases."
+    },
+    "references": [
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Epithelial Ovarian, Fallopian Tube, and Primary Peritoneal Cancer.",
+      "FIGO Staging of Ovarian, Fallopian Tube, and Primary Peritoneal Cancer (2014, reaffirmed)."
+    ]
+  },
+  {
+    "id": 441,
+    "orig_id": 585,
+    "source_page": 169,
+    "subdivision": "Benign Gynecology",
+    "topic": "Intrauterine Adhesions (Asherman Syndrome)",
+    "question": "Which of the following best describes the pathophysiology of Asherman syndrome?",
+    "options": {
+      "A": "Myometrial scarring",
+      "B": "Endometrial hyperplasia",
+      "C": "Trophoblastic hyperplasia",
+      "D": "Disruption of the basal layer of the endometrium resulting in intrauterine adhesions"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Incorrect. Asherman syndrome primarily involves the endometrium, not the myometrium.",
+      "B": "Incorrect. Endometrial hyperplasia is caused by prolonged unopposed estrogen stimulation and is unrelated to intrauterine adhesions.",
+      "C": "Incorrect. Trophoblastic hyperplasia occurs in gestational trophoblastic disease and is not the mechanism of Asherman syndrome.",
+      "D": "Correct. Asherman syndrome develops following damage to the basal (stratum basalis) layer of the endometrium, most commonly after curettage of the recently pregnant uterus. Healing occurs by fibrosis, leading to intrauterine adhesions, partial or complete obliteration of the uterine cavity, menstrual abnormalities, infertility, and recurrent pregnancy loss."
+    },
+    "references": [
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Intrauterine Adhesions (Asherman Syndrome).",
+      "Speroff's Clinical Gynecologic Endocrinology and Infertility, 9th Edition. Asherman syndrome results from injury to the basal endometrium, leading to fibrosis and intrauterine adhesions."
+    ]
+  },
+  {
+    "id": 442,
+    "orig_id": 586,
+    "source_page": 169,
+    "subdivision": "Obstetrics",
+    "topic": "Maternal Mortality",
+    "question": "Which of the following is the most common cause of maternal mortality in developed countries?",
+    "options": {
+      "A": "Sepsis",
+      "B": "Thromboembolism (Pulmonary embolism)",
+      "C": "Ectopic pregnancy",
+      "D": "Postpartum hemorrhage"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "Incorrect. Although sepsis remains an important cause of maternal death, it is less common than thromboembolic disease in most developed countries.",
+      "B": "Correct. Venous thromboembolism, particularly pulmonary embolism, is one of the leading direct causes of maternal mortality in developed countries because pregnancy and the puerperium are hypercoagulable states.",
+      "C": "Incorrect. Ectopic pregnancy is an important cause of first-trimester maternal mortality but is not the leading overall cause in developed countries.",
+      "D": "Incorrect. Postpartum hemorrhage remains the leading cause of maternal mortality worldwide and in many low-resource settings, but thromboembolism is more common in developed countries."
+    },
+    "references": [
+      "Williams Obstetrics, 26th Edition. Chapter 55: Thromboembolic Disorders.",
+      "Williams Obstetrics, 26th Edition. Chapter: Maternal Mortality."
+    ]
+  },
+  {
+    "id": 443,
+    "orig_id": 587,
+    "source_page": 169,
+    "subdivision": "Office Practice & Women's Health",
+    "topic": "Contraception",
+    "question": "Which of the following is the most common side effect of the Yuzpe regimen used for emergency contraception?",
+    "options": {
+      "A": "Nausea and vomiting",
+      "B": "Altered glycemic index",
+      "C": "Elevated liver enzymes",
+      "D": "Spotting"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. The Yuzpe regimen (combined estrogen\u2013progestin emergency contraception) is associated with a high incidence of nausea and vomiting, which are the most common adverse effects due to its estrogen component.",
+      "B": "Incorrect. The Yuzpe regimen does not significantly affect glucose metabolism.",
+      "C": "Incorrect. Transient liver enzyme elevation is not a common adverse effect of emergency contraception.",
+      "D": "Incorrect. Irregular bleeding or spotting may occur after emergency contraception, but nausea and vomiting are the most frequent side effects of the Yuzpe regimen."
+    },
+    "references": [
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Contraception.",
+      "Williams Gynecology, 5th Edition. Chapter: Contraception. The Yuzpe regimen commonly causes nausea (\u224850%) and vomiting (\u224820%), more frequently than levonorgestrel-only emergency contraception."
+    ]
+  },
+  {
+    "id": 444,
+    "orig_id": 588,
+    "source_page": 170,
+    "subdivision": "Benign Gynecology",
+    "topic": "Venous Thromboembolism",
+    "question": "Following gynecologic surgery, deep venous thrombosis (DVT) most commonly occurs at which site?",
+    "options": {
+      "A": "Ovarian vein",
+      "B": "Inferior vena cava",
+      "C": "Deep veins of the lower limb (especially the left leg)",
+      "D": "Superior vena cava"
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Incorrect. Ovarian vein thrombosis is an uncommon condition, seen mainly in the postpartum period rather than after routine gynecologic surgery.",
+      "B": "Incorrect. Primary IVC thrombosis is rare.",
+      "C": "Correct. The lower-extremity deep veins are the most common site of postoperative DVT. The left leg is affected more frequently because the left common iliac vein is compressed by the overlying right common iliac artery (May\u2013Thurner syndrome), predisposing to venous stasis.",
+      "D": "Incorrect. Superior vena cava thrombosis is uncommon and is usually associated with central venous catheters or malignancy."
+    },
+    "references": [
+      "Williams Obstetrics, 26th Edition. Chapter 55: Thromboembolic Disorders.",
+      "Berek & Novak's Gynecology, 16th South Asian Edition. Chapter: Venous Thromboembolism."
+    ]
+  }
+]
